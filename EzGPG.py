@@ -17,7 +17,7 @@ input("Press Enter to Continue...")
 os.system("clear")
 print("""
       
-      Please note this is a third party application and is not affiliated with PGP or gnupg.
+      Please note this is a third party application and is not affiliated with PGP or GPG/gnupg.
 this is a standalone application that requires you to have gnupg installed on your system.
       
 If you do not have gnupg installed please follow the here: https://formulae.brew.sh/formula/gnupg.
@@ -98,12 +98,13 @@ What would you like to do?
         os.system("clear")
         list_pub_keys()
         input("Press Enter to Return to The Menu...")
+        os.system("clear")
 
     elif option == "12":
         os.system("clear")
         list_priv_keys()
         input("Press Enter to Return to The Menu...")
-        break
+        os.system("clear")
 
     else:
         print("Invalid Option, Please Try Again.")
