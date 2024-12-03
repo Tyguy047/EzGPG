@@ -13,7 +13,7 @@ import time
 print("""
       
 Welcome to EzPGP, MacOS PGP encryption simplified!""")
-input("Press Enter to continue...")
+input("Press Enter to Continue...")
 os.system("clear")
 print("""
       
@@ -23,7 +23,7 @@ this is a standalone application that requires you to have gnupg installed on yo
 If you do not have gnupg installed please follow the here: https://formulae.brew.sh/formula/gnupg.
 You may also need to install home brew if you do not have it installed, you can do so here: https://brew.sh/.""")
 time.sleep(3)
-input("Press Enter to continue...")
+input("Press Enter to Continue...")
 os.system("clear")
 while True:
     print("""
@@ -71,30 +71,41 @@ What would you like to do?
 
     elif option == "6":
         os.system("clear")
-        break
+        delete_priv()
+        os.system("clear")
 
     elif option == "7":
         os.system("clear")
-        break
+        export_pub()
+        os.system("clear")
 
     elif option == "8":
         os.system("clear")
-        break
+        export_priv()
+        os.system("clear")
 
     elif option == "9":
+        os.system("clear")
+        import_pub()
         os.system("clear")
 
     elif option == "10":
         os.system("clear")
+        import_priv()
+        os.system("clear")
 
     elif option == "11":
         os.system("clear")
-        break
+        list_pub_keys()
+        input("Press Enter to Return to The Menu...")
 
     elif option == "12":
         os.system("clear")
+        list_priv_keys()
+        input("Press Enter to Return to The Menu...")
         break
 
     else:
-        print("Invalid option, please try again.")
+        print("Invalid Option, Please Try Again.")
+        time.sleep(0.5)
         os.system("clear")

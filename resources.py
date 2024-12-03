@@ -38,19 +38,26 @@ def delete_pub():
 
 # 6
 def delete_priv():
-    os.system("gpg --delete-secret-key")
+    os.system("gpg --list-secret-keys")
+    key_id = input("Enter the key ID of the private key you want to delete: ")
+    os.system(f"gpg --delete-secret-key {key_id}")
 
 # 7
 def export_pub():
-    os.system("gpg --export")
+    key_id = input("Enter the key ID of the public key you want to export: ")
+    output_path = input("Enter the output file path: ")
+    os.system(f"gpg --export {key_id} > {output_path}")
 
 # 8
 def export_priv():
-    os.system("gpg --export-secret-keys")
+    key_id = input("Enter the key ID of the private key you want to export: ")
+    output_path = input("Enter the output file path: ")
+    os.system(f"gpg --export-secret-keys {key_id} > {output_path}")
 
 # 9
 def import_pub():
-    os.system("gpg --import")
+    file_path = input("Enter the path to the public key to import: ")
+    os.system(f"gpg --import {file_path}")
 
 # 10
 def import_priv():
@@ -58,7 +65,7 @@ def import_priv():
     os.system(f"gpg --import {file_path}")
 
 # 11
-def list_keys():
+def list_pub_keys():
     os.system("gpg --list-keys")
 
 # 12
