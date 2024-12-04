@@ -1,0 +1,61 @@
+{
+  "diskImage" : {
+    "autoopen" : true,
+    "background" : {
+      "color" : "{1.000000, 1.000000, 1.000000, 1.000000}",
+      "layoutObjects" : [
+        {
+          "bounds" : "{{-275, -10}, {1193, 425}}",
+          "filePath" : "\/Users\/tyler\/Desktop\/Screenshot 2024-12-03 at 4.25.52 PM.png",
+          "identifier" : "Screenshot 2024-12-03 at 4.25.52 PM",
+          "image" : "zccvmpefun",
+          "layoutObjectType" : "image",
+          "relativeFilePath" : "Screenshot 2024-12-03 at 4.25.52 PM.png",
+          "uid" : "zccvmpefun"
+        }
+      ],
+      "type" : 1
+    },
+    "finalFormat" : "UDBZ",
+    "iconPreviewVisible" : false,
+    "iconSize" : 150,
+    "itemInfoVisible" : false,
+    "labelPosition" : 0,
+    "licenses" : [
+
+    ],
+    "nameFontSize" : 12,
+    "statusBarVisible" : false,
+    "toolbarVisible" : false,
+    "uid" : "sqsmphhxde",
+    "validationScheme" : 0,
+    "viewLayout" : 0,
+    "volumeIcon" : "volumeIcon",
+    "volumeName" : "EzGPG",
+    "volumeSize" : 0,
+    "volumeSizeOption" : "Automatic",
+    "windowContentHeight" : 360,
+    "windowContents" : [
+      {
+        "filePath" : "\/Applications",
+        "iconSize" : 100,
+        "invisible" : false,
+        "isAnAlias" : true,
+        "location" : "{460, 180}",
+        "relativeFilePath" : "..\/..\/..\/Applications"
+      },
+      {
+        "filePath" : "\/Users\/tyler\/Desktop\/Temp\/dist\/EzGPG",
+        "iconSize" : 100,
+        "invisible" : false,
+        "isAnAlias" : false,
+        "location" : "{149, 180}",
+        "relativeFilePath" : "Temp\/dist\/EzGPG"
+      }
+    ],
+    "windowContentWidth" : 600,
+    "windowLeft" : 200,
+    "windowTop" : 120
+  },
+  "version" : 4
+}
